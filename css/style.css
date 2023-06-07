@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 5rem;
+    background-color: rgb(61, 116, 116);
+}
+.background{
+    height: 35rem;
+    background-color:rgb(205, 205, 205);
+}
+.container{
+    height: 80%;
+    background-color: red;
+    margin: 0 auto;
+    width: 70%;
+    transform: translateY(-3rem);
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    width: 35%;
+    background-color: rgb(169, 169, 169);
+    display: flex;
+    flex-direction: column;
+}
+.alarm{
+    background-color: aqua;
+    height: 10%;
+}
+.chat{
+    width: 65%;
+    background-color: green;
+}
+.conversation{
+    height: 80%;
+}
+.myprofile{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.profilephoto{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin: .4rem;
+}
+i{
+    font-size: medium;
+    color: rgb(137, 137, 137);
+    margin: .2rem;
+}
