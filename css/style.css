@@ -13,7 +13,6 @@ header{
 }
 .container{
     height: 80%;
-    background-color: red;
     margin: 0 auto;
     width: 70%;
     transform: translateY(-3rem);
@@ -30,9 +29,8 @@ header{
     background-color: aqua;
     height: 10%;
 }
-.chat{
+.main{
     width: 65%;
-    background-color: green;
 }
 .conversation{
     height: 80%;
@@ -43,6 +41,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(213, 212, 212);
 }
 .profilephoto{
     height: 2rem;
@@ -67,4 +66,13 @@ i{
     width: 90%;
     margin: 0 5%;
 
+}
+.chat{
+    background-image: url(../img/mine.jpg);
+    height: 80%;
+}
+.send-message{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
