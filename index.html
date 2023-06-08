@@ -10,24 +10,34 @@
 </head>
 <body>
     <script src="https://unpkg.com/vue@3"></script>
+    <div id="app">
     <header></header>
     <div class="background">
         <div class="container">
-            <div class="contact">
+            <div class="contacts">
                 <div class="myprofile">
-                    <div><img src="./img/avatar_io.jpg" alt="selfie" class="profilephoto"><span class="myname">Sofia</span></div>
+                    <div><img src="./img/avatar_io.jpg" alt="selfie" class="profilephoto"></div><span class="myname">Sofia</span>
                     <div><i class="fa-solid fa-rotate"></i><i class="fa-solid fa-message"></i><i class="fa-solid fa-ellipsis-vertical"></i></div>
                 </div>
                 <div class="alarm">
                     <div><i class="fa-regular fa-bell-slash"></i></div>
                     <div><h4>Ricevi notifiche di nuovi messaggi</h4><span class="underline">Attiva notifiche desktop</span></div>
                 </div>
-                <div class="conversation"><input type="text" class="search" value="Cerca o inizia una nuova chat"></div>
+                <div class="conversation">
+                    <input type="text" class="search" value="Cerca o inizia una nuova chat">
+                    <div class="contact">
+                        <img src="./img/avatar_1.jpg" alt="nome contatto" class="profilephoto">
+                    <div>
+                        <h4>Nome Cognome</h4>
+                        <p>ultimo messaggio</p>
+                    </div>
+                    </div>
+                </div>
             </div>
             <div class="chat"></div>
         </div>
     </div>
-
     <script src="./js/myscript.js"></script>
+    </div>
 </body>
 </html>

@@ -21,10 +21,10 @@ header{
     flex-direction: row;
 }
 .contact{
-    width: 35%;
+    width: 100%;
     background-color: rgb(169, 169, 169);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .alarm{
     background-color: aqua;
